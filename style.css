@@ -14,7 +14,7 @@ ul{
     background-size: cover;
 }
 
-.btn_one{
+.btn_one i{
     color: white;
     font-size: 25px;
     font-weight: 700;
@@ -23,6 +23,7 @@ ul{
     line-height: 60px;
     cursor: pointer;
     /* background-color: pink; */
+    transition: all 0.2s linear;
 }
 
 .sidebar_menu{
@@ -32,12 +33,14 @@ ul{
     width: 300px;
     background-color: #ffffff11;
     box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s linear;
 }
 
 .sidebar_menu .logo{
     position: absolute;
     width: 100%;
     line-height: 60px;
+    height: 60px;
     box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
     /* background-color: rgb(0, 255, 81); */
 }
@@ -56,10 +59,11 @@ ul{
     color: rgb(128, 128, 128);
     font-size: 25px;
     position: absolute;
-    left: 275px;
+    left: 265px;
     line-height: 60px;
     /* opacity: 0; */
     cursor: pointer;
+    transition: all 0.3s linear;
 }
 
 .sidebar_menu .menu{
@@ -106,8 +110,8 @@ ul{
     box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
 }
 
-.sidebar_menu .btn_one:hover{
-    font-size: 40px;
+.btn_one i:hover{
+    font-size: 35px;
 }
 
 .sidebar_menu .btn_two i:hover{
