@@ -20,7 +20,7 @@ This project is part of my frontend development learning journey, where I build 
 ## Run Locally
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/HARSH-dev1708/css-sidebar-navigation.git
 ````
 
 Open `index.html` in your browser.
