@@ -92,3 +92,7 @@ ul{
     padding: 0 5px;
 
 }
+
+#check {
+    display: none;
+}
